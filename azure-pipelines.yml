@@ -10,6 +10,11 @@ pool:
 steps:
 - task: UiPathInstallPlatform-preview@2
 
+- task: CmdLine@2
+  inputs:
+    script: 'dir' 
+    
+    
 
 - task: UiPathPack@2
   inputs:
