@@ -1,0 +1,132 @@
+{
+  "name": "RPA Testing",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.9.3-beta.1172659]",
+    "UiPath.Mail.Activities": "[1.9.3-beta.1159742]",
+    "UiPath.System.Activities": "[20.10.1-beta.1172172]",
+    "UiPath.Testing.Activities": "[1.2.2-beta.1162214]",
+    "UiPath.UIAutomation.Activities": "[20.10.2-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "95e9ca14-3e80-475c-9e60-73736b859cc7",
+        "fileName": "Register_User.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "583483ab-99ec-40ef-8342-57426bae7f81",
+        "dataVariationFilePath": ".variations\\Register_new_users_Tabelle1.json",
+        "fileName": "Register_User - Data Driven.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "251d91a1-231c-490d-a085-13c18672792f",
+        "fileName": "PAC\\End2EndTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0c4cc55f-72e5-40ab-aaf5-6d020e839838",
+        "fileName": "PAC\\Calculate Taxes.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b82aab3d-ce81-4832-a7d7-d154e090cdf7",
+        "fileName": "PAC\\No Invoices Found.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ec4f1815-52ee-476d-950f-eca66cf54127",
+        "fileName": "Orchestrator\\TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "31c2ce6a-38de-4183-bbf6-ebd0fd69488c",
+        "fileName": "Orchestrator\\TestCase7.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "abffc27a-3779-4f56-8b8d-5e98e5d55fdf",
+        "fileName": "Orchestrator\\TestCase6.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4beb76aa-cf6a-44e9-b4bf-dfebb87623e2",
+        "fileName": "Orchestrator\\TestCase5.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b7170fc7-4ece-46ec-bad5-0d6be235f9c3",
+        "fileName": "Orchestrator\\TestCase4.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "961b2b27-74a3-4a08-98d7-f96118a3519d",
+        "fileName": "Orchestrator\\TestCase3.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "aaac393b-6fca-4142-bfbc-1bbbc855b7c7",
+        "fileName": "Orchestrator\\TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e9e8190d-3a8f-46b2-95ce-c74016375644",
+        "fileName": "Orchestrator\\TestCase10.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2a229910-ff58-4b25-a336-42008535fa4f",
+        "fileName": "Orchestrator\\TestCase9.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "118a65f0-f0f4-41a8-aff1-7e7bb3c8c172",
+        "fileName": "Orchestrator\\TestCase8.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "be3fde0a-63f3-4df7-911e-55ab857c519b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
