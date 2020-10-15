@@ -20,7 +20,7 @@ steps:
   inputs:
     versionType: AutoVersion # Options: AutoVersion, CurrentVersion, ManualVersion 
     version: '1.0.0' # Required when versionType == ManualVersion
-    projectJsonPath: 'project.json'
+    projectJsonPath: 'RPA Testing\project.json'
     outputType: 'Process'
     orchestratorConnection: 'Orchestrator'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
