@@ -25,3 +25,13 @@ steps:
     orchestratorConnection: 'Orchestrator'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
 
+
+
+- task: UiPathTest@2
+  inputs:
+    testTarget: 'TestProject'
+    orchestratorConnection: 'Orchestrator'
+    testProjectPath: 'RPA Testing\project.json'
+    environment: 'ThomasStockerEnvironment'
+    folderName: 'ThomasStocker'
+    testReportDestination: 'result.xml'
