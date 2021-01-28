@@ -2,7 +2,8 @@ Asset Name,Type,Value
 Some Text,text,some text value						
 Some Integer,integer,12345						
 Some Bool,boolean,TRUE						
-Some Credentials,credential,username::password						
+Some Credentials,credential,username::password
+Message,text,Hello World	
 								
 								
 								
