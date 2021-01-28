@@ -1,0 +1,16 @@
+trigger:
+- master
+
+pool:
+
+  vmImage: "vs2017-win2016"
+
+steps:
+- task: UiPathInstallPlatform-preview@2
+
+- task: UiPathRunJob@2
+  inputs:
+    orchestratorConnection: 'Orchestrator'
+    processName: 'RunJob'
+    folderName: 'ThomasStocker_modern_folder'
+    user: 'ThomasStocker'
