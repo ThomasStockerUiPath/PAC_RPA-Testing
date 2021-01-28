@@ -10,34 +10,9 @@ pool:
 steps:
 - task: UiPathInstallPlatform-preview@2
 
-- task: CmdLine@2
-  inputs:
-    script: 'dir' 
-    
-    
-
-- task: UiPathPack@2
-  inputs:
-    versionType: AutoVersion # Options: AutoVersion, CurrentVersion, ManualVersion 
-    version: '1.0.0' # Required when versionType == ManualVersion
-    projectJsonPath: 'RPA Testing\project.json'
-    outputType: 'Process'
-    orchestratorConnection: 'Orchestrator'
-    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
-
-
-
-- task: UiPathTest@2
-  inputs:
-    testTarget: 'TestSet'
-    orchestratorConnection: 'Orchestrator'
-    testSet: 'PAC_RPA Testing'
-    folderName: 'ThomasStocker'
-    testReportDestination: 'output.xml'
-
-- task: UiPathDeploy@2
+- task: UiPathAssets@2
   inputs:
     orchestratorConnection: 'Orchestrator'
-    packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'ThomasStocker'
-    environments: 'ThomasStockerEnvironment'
+    folderName: 'ThomasStocker_modern_folder'
+    assetActionType: 'Deploy'
+    csvFile: 'assets.csv'
