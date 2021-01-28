@@ -13,4 +13,4 @@ steps:
     orchestratorConnection: 'Orchestrator'
     processName: 'RunJob'
     folderName: 'ThomasStocker_modern_folder'
-    user: 'ThomasStocker'
+    user: 'laptop-2flmrhn0\thomas stocker'
