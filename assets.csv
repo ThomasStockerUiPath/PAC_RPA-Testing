@@ -1,5 +1,5 @@
 Asset Name,Type,Value
-Some Text,text,some text value						
+Some Text,text,some text value #some comment					
 Some Integer,integer,12345						
 Some Bool,boolean,TRUE						
 Some Credentials,credential,username::password
