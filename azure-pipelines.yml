@@ -16,3 +16,10 @@ steps:
     folderName: 'ThomasStocker_modern_folder'
     assetActionType: 'Deploy'
     csvFile: 'assets.csv'
+
+- task: UiPathRunJob@2
+  inputs:
+    orchestratorConnection: 'Orchestrator'
+    processName: 'RunJob'
+    folderName: 'ThomasStocker_modern_folder'
+    user: 'laptop-2flmrhn0\thomas stocker'
